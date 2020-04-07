@@ -13,6 +13,8 @@ import ComponentA from './components/nestedComponents/ComponentA';
 import CounterReducerOne from './components/StateManagement/CounterOne'
 import CounterReducerTwo from './components/StateManagement/CounterTwo';
 import CounterReducerThree from './components/StateManagement/CounterThree';
+import GlobalContext from './components/GlobalContext/GlobalContext';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -37,6 +39,8 @@ function App() {
       <CounterReducerOne></CounterReducerOne>
       <CounterReducerTwo></CounterReducerTwo>
       <CounterReducerThree></CounterReducerThree>
+      <GlobalContext></GlobalContext>
+      <DataFetchingTwo></DataFetchingTwo>
     </div>
   );
 }
