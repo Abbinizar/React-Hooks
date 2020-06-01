@@ -15,6 +15,7 @@ import CounterReducerTwo from './components/StateManagement/CounterTwo';
 import CounterReducerThree from './components/StateManagement/CounterThree';
 import GlobalContext from './components/GlobalContext/GlobalContext';
 import DataFetchingTwo from './components/DataFetchingTwo';
+import ParentComponent from './components/Optimize/ParentComponent';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -41,6 +42,7 @@ function App() {
       <CounterReducerThree></CounterReducerThree>
       <GlobalContext></GlobalContext>
       <DataFetchingTwo></DataFetchingTwo>
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
